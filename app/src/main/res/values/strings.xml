@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_soapcall">MySOAPCallActivity</string>
+    <string name="hello">hello</string>
+    <string name="title_activity_setup_event">SetupEvent</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="LogOff">Logoff</string>
+    <string name="logoout">logout</string>
+    <string name="logooutmain">lgoutmainmenu</string>
+    <string name="homego">homego</string>
+    <string name="Search">Search</string>
+    <string name="Home">Home</string>
+</resources>

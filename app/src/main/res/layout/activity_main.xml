@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:id="@+id/normal"
+    tools:context="com.example.dsouchon.myapplication.MainActivity"
+    android:screenOrientation="portrait"
+    android:background="@drawable/backgroud_app">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutLoggedIn"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50">
+
+
+
+
+            <TextView
+                style="@style/smallwordtextwhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Event Not Set. Please set event."
+                android:id="@+id/textEventName"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:background="#000000"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imageViewEventImage"
+                android:background="@drawable/ico_eventi_icon"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            >
+
+
+
+            <Button
+                android:text="Scan Bar-codes"
+                android:id="@+id/button"
+                android:onClick="ScanCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="15dp"/>
+
+
+
+
+            <Button
+
+                android:text="Guest List"
+                android:id="@+id/buttonGuestList"
+                android:onClick="Guestlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="15dp"
+
+
+                />
+
+
+            <!-- Button set to invisible to hide it before event is set up -->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan NFC Bands"
+                android:id="@+id/buttonAccessControl"
+                android:onClick="accessControl"
+                android:background="@drawable/round"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:text="EVENT SETUP"
+                android:id="@+id/buttonEventSetup"
+                android:onClick="setupEvent"
+                android:layout_above="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:textColor="#ffffff"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="15dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutLogIn"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+
+            android:paddingTop="30dp">
+
+
+
+            <EditText
+                style="@style/passwordtext"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:hint="UserName"
+                android:id="@+id/editUserName"
+                android:textColorHint="#ffffff"
+                android:text="smilingdassie@gmail.com"
+                android:backgroundTint="#ffffff"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <EditText
+                style="@style/passwordtext"
+                android:textColor="#ffffff"
+                android:layout_width="fill_parent"
+                android:backgroundTint="#ffffff"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:textColorHint="#ffffff"
+                android:hint="Password"
+                android:visibility="gone"
+                android:id="@+id/editPassword"
+                android:text="2222"
+
+                android:layout_column="0"
+                android:layout_row="2"
+                android:layout_height="wrap_content" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:id="@+id/buttonLogin"
+                android:layout_alignBottom="@+id/imageViewEventImage"
+                android:background="@drawable/roundorangefull"
+                android:backgroundTint="#f5ab1c"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:onClick="Login" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelLoginResult"
+                android:visibility="invisible"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

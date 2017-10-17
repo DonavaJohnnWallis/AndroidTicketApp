@@ -42,7 +42,7 @@ import android.view.MenuItem;
        //public  final String SOAP_ADDRESS = "http://www.miid.co.zw/miidwebservice.asmx";
        // public  final String SOAP_ADDRESS = "https://www.miid.co.za/miidwebservice.asmx";
        // public  final String SOAP_ADDRESS = "http://demo.miid.co.za/miidwebservice.asmx";
-        public  final String SOAP_ADDRESS = "http://training.miid.co.za/miidwebservice.asmx";
+        public  final String SOAP_ADDRESS = "https://www.miid.co.za/miidwebservice.asmx";
 
 
         public MySOAPCallActivity()

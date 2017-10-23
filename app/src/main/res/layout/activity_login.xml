@@ -120,7 +120,7 @@
                 android:background="@drawable/roundorangefull"/>
 
         <Button
-            android:text="Dont have an account. Click here to register."
+            android:text="Dont have an account. Click here to register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button3"

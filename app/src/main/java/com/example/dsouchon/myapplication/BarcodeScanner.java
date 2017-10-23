@@ -332,7 +332,7 @@ public class BarcodeScanner extends AppCompatActivity {
 
         @Override
         protected String doInBackground(TagParams... params) {
-            return params[0].foo.TicketValidForEvent(params[0].tagNumber, params[0].eventName);
+            return params[0].foo.TicketValidForEvent(params[0].tagNumber, params[0].eventName) ;
 
 
 

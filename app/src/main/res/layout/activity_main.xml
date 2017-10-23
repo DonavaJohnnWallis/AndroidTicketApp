@@ -4,7 +4,7 @@
     android:id="@+id/normal"
     tools:context="com.example.dsouchon.myapplication.MainActivity"
     android:screenOrientation="portrait"
-    android:background="@drawable/backgroud_app">
+    android:background="#ffffff">
 
 
     <LinearLayout

@@ -1,14 +1,10 @@
 package com.example.dsouchon.myapplication;
 
-import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -69,6 +65,65 @@ public class BarcodeScanner extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
+        EditText editTagNumber = (EditText) findViewById(R.id.editTagNumber);
+        Bundle bu;
+        bu = getIntent().getExtras();
+
+        if (bu != null) {
+            editTagNumber.setText(bu.getString(""));
+
+        }
+
+
+        //get the extras that are returned from the intent
+        String tagNo = getIntent().getStringExtra( "");
+
+
+
+        editTagNumber.setText(tagNo) ;
+
+
+        MySOAPCallActivity cs = new MySOAPCallActivity();
+
+
+        //tagNo = editTagNumber.getText().toString();
+
+        final GlobalClass globalVariable = (GlobalClass) getApplicationContext();
+
+        // Get name and email from global/application context
+        String eventName  = globalVariable.getEventName();
+        if(Local.isSet(getApplicationContext(), "EventName"))
+        {
+            eventName = Local.Get(getApplicationContext(), "EventName");
+
+        }
+        if(eventName.length() > 0) {
+
+            TagParams params = new TagParams(cs, tagNo, eventName);
+
+            //Make yes no buttons visible
+            Button scanbutton = (Button)findViewById(R.id.scanner2);
+
+            Button buttonYes = (Button)findViewById(R.id.buttonYes);
+            Button buttonNo = (Button)findViewById(R.id.buttonNo);
+            buttonYes.setVisibility(View.VISIBLE);
+            buttonNo.setVisibility(View.VISIBLE);
+            scanbutton.setVisibility(View.INVISIBLE);
+
+
+            TextView nameSurname = (TextView) findViewById(R.id.nameSurname);
+            nameSurname.setText("");
+            TextView idNumber = (TextView) findViewById(R.id.idNumber);
+            idNumber.setText("");
+            TextView ticketClass = (TextView) findViewById(R.id.ticketClass);
+            ticketClass.setText("");
+
+
+
+            new CallSoapTicketValidForEvent().execute(params);
+        }
+
+
 
 
 
@@ -82,11 +137,7 @@ public class BarcodeScanner extends AppCompatActivity {
         scanbutton.setVisibility(View.GONE);
 
 
-        //Make yes no buttons invisible
 
-        Button buttonNo = (Button)findViewById(R.id.buttonNo);
-
-        buttonNo.setVisibility(View.INVISIBLE);
 
 
 
@@ -98,7 +149,6 @@ public class BarcodeScanner extends AppCompatActivity {
         final  AlertDialog ad=new AlertDialog.Builder(this).create();
 
 
-        final GlobalClass globalVariable = (GlobalClass) getApplicationContext();
 
         // Get name and email from global/application context
         final String eventImageString  = globalVariable.getEventImage();
@@ -191,9 +241,22 @@ public class BarcodeScanner extends AppCompatActivity {
    // restarts activity once patron is allowed entry
     public void Next(View view) {
 
-        Intent intent = new Intent(BarcodeScanner.this, BarcodeScanner.class );
-        startActivity(intent);
+        Intent intent = new Intent(BarcodeScanner.this, BarcodeScannerNew.class );
         finish();
+        startActivity(intent);
+
+        Button scancode = (Button)findViewById(R.id.scanner2);
+        scancode.setVisibility(View.VISIBLE);
+
+
+
+    }
+
+    public void scanBar(View view) {
+
+        Intent intent = new Intent(BarcodeScanner.this, BarcodeScannerNew.class );
+        finish();
+        startActivity(intent);
 
         Button scancode = (Button)findViewById(R.id.scanner2);
         scancode.setVisibility(View.VISIBLE);
@@ -472,134 +535,6 @@ public class BarcodeScanner extends AppCompatActivity {
 
 
     }
-    static final String ACTION_SCAN = "com.google.zxing.client.android.SCAN";
-
-
-    //product barcode mode
-    public void scanBar(View v) {
-        try {
-            //start the scanning activity from the com.google.zxing.client.android.SCAN intent
-            Intent intent = new Intent(ACTION_SCAN);
-            intent.putExtra("SCAN_MODE", "CODE_39");
-            startActivityForResult(intent, 0);
-        } catch (ActivityNotFoundException anfe) {
-            //on catch, show the download dialog
-            showDialog(BarcodeScanner.this, "No Scanner Found", "Download a scanner code activity?", "Yes", "No").show();
-        }
-    }
-
-
-    // start qr stuff  //product qr code mode
-    public void scanQR(View v) {
-        try {
-            //start the scanning activity from the com.google.zxing.client.android.SCAN intent
-            Intent intent = new Intent(ACTION_SCAN);
-            intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
-            startActivityForResult(intent, 0);
-        } catch (ActivityNotFoundException anfe) {
-            //on catch, show the download dialog
-            showDialog(BarcodeScanner.this, "No Scanner Found", "Download a scanner code activity?", "Yes", "No").show();
-        }
-    }
-
-    //alert dialog for downloadDialog
-    private static AlertDialog showDialog(final Activity act, CharSequence title, CharSequence message, CharSequence buttonYes, CharSequence buttonNo) {
-        AlertDialog.Builder downloadDialog = new AlertDialog.Builder(act);
-        downloadDialog.setTitle(title);
-        downloadDialog.setMessage(message);
-        downloadDialog.setPositiveButton(buttonYes, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Uri uri = Uri.parse("market://search?q=pname:" + "com.google.zxing.client.android");
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                try {
-                    act.startActivity(intent);
-                } catch (ActivityNotFoundException anfe) {
-
-                }
-            }
-        });
-        downloadDialog.setNegativeButton(buttonNo, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
-            }
-        });
-        return downloadDialog.show();
-    }
-    //on ActivityResult method
-    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
-        if (requestCode == 0) {
-            if (resultCode == RESULT_OK) {
-
-
-
-                //get the extras that are returned from the intent
-                String tagNo = intent.getStringExtra( "SCAN_RESULT");
-                String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
-                String TIC = "tic";
-
-
-                 EditText editTagNumber = (EditText)findViewById(R.id.editTagNumber);
-                editTagNumber.setText(tagNo) ;
-
-
-                MySOAPCallActivity cs = new MySOAPCallActivity();
-
-
-                //tagNo = editTagNumber.getText().toString();
-
-                final GlobalClass globalVariable = (GlobalClass) getApplicationContext();
-
-                // Get name and email from global/application context
-                String eventName  = globalVariable.getEventName();
-                if(Local.isSet(getApplicationContext(), "EventName"))
-                {
-                    eventName = Local.Get(getApplicationContext(), "EventName");
-
-                }
-                if(eventName.length() > 0) {
-
-                    TagParams params = new TagParams(cs, tagNo, eventName);
-
-                    //Make yes no buttons visible
-                    Button scanbutton = (Button)findViewById(R.id.scanner2);
-
-                    Button buttonYes = (Button)findViewById(R.id.buttonYes);
-                    Button buttonNo = (Button)findViewById(R.id.buttonNo);
-                    buttonYes.setVisibility(View.VISIBLE);
-                    buttonNo.setVisibility(View.VISIBLE);
-                    scanbutton.setVisibility(View.INVISIBLE);
-
-
-                    TextView nameSurname = (TextView) findViewById(R.id.nameSurname);
-                    nameSurname.setText("");
-                    TextView idNumber = (TextView) findViewById(R.id.idNumber);
-                    idNumber.setText("");
-                    TextView ticketClass = (TextView) findViewById(R.id.ticketClass);
-                    ticketClass.setText("");
-
-
-
-                    new CallSoapTicketValidForEvent().execute(params);
-                }
-
-            }
-
-            ;
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -615,12 +550,6 @@ public class BarcodeScanner extends AppCompatActivity {
 
 
     }
-
-
-
-
-
-
 
 
 

@@ -4,17 +4,12 @@ package com.example.dsouchon.myapplication;
  * Created by dsouchon on 5/3/2016.
  */
 
-import java.io.FileOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
 import android.content.Context;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.util.UUID;
 
 
 public class Local {

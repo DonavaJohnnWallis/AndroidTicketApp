@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.NFC" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <!--
      To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
@@ -16,7 +17,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="MiiD Event Management"
         android:theme="@style/AppTheme"
-        android:name=".GlobalClass" >
+        android:name=".GlobalClass"
+        android:supportsRtl="true">
+
         <activity
             android:name=".MainLogin"
             android:label="Mii-D ONLINE TICKETING"
@@ -63,9 +66,28 @@
             android:label="Scan Barcode"
             >
 
-
+        </activity>
+        <activity
+            android:name=".BarcodeScannerNew"
+            android:label="Scan Barcode"
+            >
 
         </activity>
+        <activity
+            android:name=".OpenBarcode"
+            android:label="Scan Barcode"
+            >
+
+        </activity>
+        <activity
+            android:name=".Number"
+            android:label="Scan Barcode"
+            >
+
+        </activity>
+
+
+
     </application>
 
 </manifest>

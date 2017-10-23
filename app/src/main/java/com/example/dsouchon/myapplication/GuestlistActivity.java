@@ -3,19 +3,15 @@ package com.example.dsouchon.myapplication;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Base64;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -174,7 +170,7 @@ public class GuestlistActivity extends AppCompatActivity {
             }
 
             ListView listView1 = (ListView) findViewById(R.id.your_list_view_id);
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(GuestlistActivity.this,R.layout.liststyle, TicketholdersArray);
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(GuestlistActivity.this, R.layout.liststyle, TicketholdersArray);
             adapter.setDropDownViewResource(R.layout.spinnerstyledrop);
             listView1.setAdapter(adapter);
 
@@ -192,7 +188,7 @@ public class GuestlistActivity extends AppCompatActivity {
         String password;
 
 
-        GetTicketHolderForEventParams (MySOAPCallActivity foo,  String eventname, String username, String password) {
+        GetTicketHolderForEventParams (MySOAPCallActivity foo, String eventname, String username, String password) {
             this.foo = foo;
 
             this.eventname = eventname;

@@ -140,7 +140,7 @@
             android:hint="TagNumber"
             android:id="@+id/editTagNumber"
             android:text="TAG NUMBER"
-            android:visibility="gone"
+
 
             android:textColor="#ffffff"
             android:textAlignment="center"

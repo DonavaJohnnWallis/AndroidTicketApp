@@ -19,75 +19,84 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3"
+        android:layout_weight="60"
         android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/imageView"
-            android:src="@drawable/logonew"
+            android:src="@drawable/logonewtwo"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp" />
     </LinearLayout>
 
 
-    <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp">
-
-
-        <TextView
-            android:text="TextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/labelLoginResult"
-            android:visibility="invisible"
-            android:textColor="#000000"
-            android:gravity="center_horizontal"
-            />
-
-        <EditText
-                style="@style/passwordtext"
+        <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
 
-                android:id="@+id/editUserName"
-                android:textColorHint="#efefef"
-                android:backgroundTint="#efefef"
-                android:layout_column="0"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-            android:text="finance@miid.co.za"/>
+                android:id="@+id/labelLoginResult"
+                android:visibility="invisible"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                />
 
             <EditText
-                style="@style/passwordtext"
-                android:textColor="#000000"
+                    style="@style/passwordtext"
                 android:layout_width="fill_parent"
-                android:backgroundTint="#efefef"
-                android:inputType="textPassword"
-                android:ems="10"
-                android:textColorHint="#efefef"
-                android:text="1808"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#efefef"
+                    android:id="@+id/editUserName"
+                    android:backgroundTint="#8f8f8f"
+                   android:textColorHint="#8f8f8f"
+                   android:textAlignment="textStart"
+                   android:layout_gravity="start"
+                    android:layout_column="0"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                android:text="finance@Miid.co.za"
+ />
 
-                android:id="@+id/editPassword"
-                android:layout_column="0"
-                android:layout_height="wrap_content" />
+                <EditText
+                    style="@style/passwordtext"
+                    android:textColor="#000000"
+                    android:layout_width="fill_parent"
+                    android:backgroundTint="#8f8f8f"
+                    android:inputType="textPassword"
+                    android:hint="4 Digit Password"
+                    android:textColorHint="#8f8f8f"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:id="@+id/editPassword"
+                    android:layout_column="0"
+                    android:layout_height="wrap_content"
+                    android:text="1808"
+
+                     />
 
 
-            <ProgressBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/progressbar"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:layout_gravity="center_horizontal"
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressbar"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
 
-                />
+                    />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -96,42 +105,34 @@
                 android:text="LOGIN"
                 android:id="@+id/buttonLogin"
                 android:layout_alignBottom="@+id/imageViewEventImage"
-                android:background="@drawable/roundorangefull"
+                android:background="@drawable/round"
                 android:backgroundTint="#f5ab1c"
                 android:textColor="#ffffff"
                 android:textSize="15dp"
 
                 android:layout_column="0"
                 android:layout_row="3"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+
                 android:onClick="Login"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="0dp" />
 
-        <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:onClick="closeApplication"
-                android:text="Click to Close/Exit App"
-                android:backgroundTint="#f5ab1c"
-                android:textColor="#ffffff"
-                android:textSize="15dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/roundorangefull"/>
 
-        <Button
-            android:text="Dont have an account. Click here to register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:onClick="browser1"
-            android:background="@null"
-            android:layout_marginTop="10dp"
-            android:textColor="#ffffff" />
 
-    </LinearLayout>
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Register"
+                    android:onClick="Register"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+
+                    android:background="@drawable/roundgrey"/>
+
+
+
+        </LinearLayout>
 
     </LinearLayout>
 

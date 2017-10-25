@@ -25,6 +25,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         mCamera = camera;
         previewCallback = previewCb;
         autoFocusCallback = autoFocusCb;
+        mCamera.stopPreview();
+
 
         /*
          * Set camera to continuous focus if supported, otherwise use
@@ -75,6 +77,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         // stop preview before making changes
         try {
             mCamera.stopPreview();
+
         } catch (Exception e) {
             // ignore: tried to stop a non-existent preview
         }

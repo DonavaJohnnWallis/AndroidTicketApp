@@ -17,22 +17,21 @@ import android.widget.Toast;
 
 public class MainLogin extends AppCompatActivity {
 
+    private static final int TIME_INTERVAL = 2000; // # milliseconds, desired time passed between two back presses.
+    private long mBackPressed;
+
     @Override
-    public void onBackPressed() {
-        // super.onBackPressed();
-        Toast.makeText(MainLogin.this,"Click Exit App button to exit", Toast.LENGTH_SHORT).show();
+    public void onBackPressed()
+    {
+        if (mBackPressed + TIME_INTERVAL > System.currentTimeMillis())
+        {
+            super.onBackPressed();
+            return;
+        }
+        else { Toast.makeText(getBaseContext(), "Tap back button in order to exit", Toast.LENGTH_SHORT).show(); }
 
-
-
-
+        mBackPressed = System.currentTimeMillis();
     }
-
-    public void browser1(View view){
-
-        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.miid.co.zw/EventOrganisers/Register"));
-        startActivity(browserIntent);
-    }
-
 
 
 
@@ -164,6 +163,14 @@ public class MainLogin extends AppCompatActivity {
             ad.setMessage(ex.toString());
         }
         ad.show();
+    }
+
+    public void Register(View view) {
+
+        Uri uri = Uri.parse("https://www.miid.co.za/Account/Register?RequestUrl=%2FLoginAlternative%2FLoginAlternative"); // missing 'http://' will cause crashed
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+
     }
 
     public class CallSoapLogin extends AsyncTask<LoginParams, Void, String> {

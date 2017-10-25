@@ -45,7 +45,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/imageViewEventImage"
-                android:background="@drawable/ico_eventi_icon"
+                android:background="@mipmap/ico_eventi_icon"
 
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp" />
@@ -56,28 +56,32 @@
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="80"
-            >
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
 
 
 
             <Button
-                android:text="Scan Bar-codes"
+                android:text="Barcodes"
                 android:id="@+id/button"
                 android:onClick="ScanCode"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:background="@drawable/round"
-                android:layout_marginBottom="10dp"
-                android:textSize="15dp"
+                android:layout_margin="5dp"
                 android:textColor="#ffffff"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
+                android:textSize="8dp"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:drawableTop="@mipmap/nfcbtn"
                 android:gravity="center_horizontal"
-                android:paddingTop="15dp"/>
+                android:paddingTop="15dp"
+
+               />
 
 
 
@@ -87,34 +91,42 @@
                 android:text="Guest List"
                 android:id="@+id/buttonGuestList"
                 android:onClick="Guestlist"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/round"
                 android:layout_marginBottom="10dp"
-                android:textSize="15dp"
+                android:background="@drawable/round"
                 android:textColor="#ffffff"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
+                android:padding="15dp"
+                android:drawableTop="@mipmap/nfcbtn"
+                android:textSize="8dp"
                 android:gravity="center_horizontal"
                 android:paddingTop="15dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+
 
 
                 />
 
 
-            <!-- Button set to invisible to hide it before event is set up -->
+
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Scan NFC Bands"
+
+                android:text="Tags"
                 android:id="@+id/buttonAccessControl"
                 android:onClick="accessControl"
                 android:background="@drawable/round"
                 android:textColor="#ffffff"
-                android:textSize="15dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:textSize="8dp"
+                android:padding="15dp"
+                android:layout_margin="5dp"
+                android:drawableTop="@mipmap/nfcbtn"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+
                 />
 
             <Button
@@ -132,7 +144,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
                 android:gravity="center_horizontal"
-                android:paddingTop="15dp" />
+                android:paddingTop="15dp"
+                />
 
 
         </LinearLayout>

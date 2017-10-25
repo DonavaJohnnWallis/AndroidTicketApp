@@ -78,9 +78,9 @@ public class SetupEvent extends AppCompatActivity {
         new CallSoapGetCurrentEvents().execute(params);
 
 
-        Button buttonUnsetEvent = (Button)findViewById(R.id.buttonUnsetEvent);
+       // Button buttonUnsetEvent = (Button)findViewById(R.id.buttonUnsetEvent);
         Button buttonMainMenu = (Button)findViewById(R.id.buttonMainMenu);
-        buttonUnsetEvent.setEnabled(false);
+    //    buttonUnsetEvent.setEnabled(false);
 
         Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
         spinner2.setEnabled(true);
@@ -259,8 +259,8 @@ public class SetupEvent extends AppCompatActivity {
             TextView loginResult =(TextView)findViewById(R.id.labelLoginResult);
             loginResult.setText(result);
 
-            Button buttonUnsetEvent = (Button)findViewById(R.id.buttonUnsetEvent);
-            buttonUnsetEvent.setEnabled(true);
+         //   Button buttonUnsetEvent = (Button)findViewById(R.id.buttonUnsetEvent);
+        //    buttonUnsetEvent.setEnabled(true);
 
             Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
             spinner2.setEnabled(true);

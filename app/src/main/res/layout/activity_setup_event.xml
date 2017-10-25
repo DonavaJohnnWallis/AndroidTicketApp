@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -10,10 +11,10 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="38">
+            android:layout_weight="1">
 
             <TextView android:text="Select an event from Dropdown Menu"
                     android:layout_width="fill_parent"
@@ -25,11 +26,32 @@
                     android:gravity="center_horizontal"
                 android:padding="20dp"
 
-                />
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/select_event"
+                android:id="@+id/imageView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
             <TextView
                 android:visibility="gone"
-                    android:layout_width="102dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="My Events"
                     android:id="@+id/labelGetCurrentEventsResult"
@@ -65,7 +87,9 @@
                 style="@style/spinner_arrow_style"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#000000" />
+                android:background="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
 
             <ImageView
                 android:visibility="gone"
@@ -80,18 +104,19 @@
                     android:textSize="20dp"
                     android:layout_column="0"
                     android:layout_row="9"/>
+
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_weight="38"
+            android:layout_weight="1"
 
             android:layout_marginTop="20dp">
 
-            <Button
+          <!--  <Button
                 style="?android:attr/buttonStyleSmall"
                         android:layout_height="100dp"
 
@@ -104,17 +129,17 @@
                 android:layout_column="0"
                 android:onClick="UnsetEvent"
                 android:layout_width="fill_parent"
-                android:visibility="invisible"/>
+                android:visibility="invisible"/> -->
 
             <Button
 
                 style="?android:attr/buttonStyleSmall"
                 android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:text="Select Event"
 
                 android:id="@+id/buttonMainMenu"
-                android:background="@drawable/roundorangefull"
+                android:background="@drawable/round"
                 android:textColor="#ffffff"
                 android:textSize="14dp"
                 android:layout_column="0"
@@ -123,17 +148,8 @@
                 android:layout_marginLeft="20dp" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="47">
-
-
-        </LinearLayout>
-
     </LinearLayout>
+
 </RelativeLayout>
 
 

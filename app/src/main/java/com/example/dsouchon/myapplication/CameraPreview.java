@@ -1,7 +1,4 @@
-
-
 package com.example.dsouchon.myapplication;
-
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -25,7 +22,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         mCamera = camera;
         previewCallback = previewCb;
         autoFocusCallback = autoFocusCb;
-        mCamera.stopPreview();
 
 
         /*
@@ -56,12 +52,22 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     public void surfaceCreated(SurfaceHolder holder) {
 
         try {
-            mCamera.setPreviewDisplay(holder);
+            mCamera.setPreviewDisplay(mHolder);
+            mCamera.setPreviewCallback(previewCallback);
+            mCamera.startPreview();
 
-        } catch (IOException e) {
+        }
+
+
+
+        catch (IOException e) {
             Log.d("DBG", "Error setting camera preview: " + e.getMessage());
         }
     }
+
+
+
+
 
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
@@ -77,7 +83,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         // stop preview before making changes
         try {
             mCamera.stopPreview();
-
         } catch (Exception e) {
             // ignore: tried to stop a non-existent preview
         }
@@ -98,11 +103,5 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
 
-        if (mCamera != null) {
-            mCamera.stopPreview();
-            mCamera.release();
-            mCamera = null; }
-
-        }
+    }
 }
-

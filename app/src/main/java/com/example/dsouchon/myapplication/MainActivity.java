@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         {
             String event =  Local.Get(getApplicationContext(), "EventName");
             TextView textEvent = (TextView) findViewById(R.id.textEventName);
-            textEvent.setText( event + "is now active.");
+            textEvent.setText( "Great! " + event + "is now active.");
             Button buttonAccessControl = (Button)findViewById(R.id.buttonAccessControl);
             buttonAccessControl.setEnabled(true);
 
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            Button buttonAccessControl = (Button)findViewById(R.id.buttonAccessControl);
+            ImageButton buttonAccessControl = (ImageButton)findViewById(R.id.buttonAccessControl);
             buttonAccessControl.setEnabled(false);
         }
 

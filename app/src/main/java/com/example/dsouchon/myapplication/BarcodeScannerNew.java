@@ -11,10 +11,13 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import net.sourceforge.zbar.Config;
 import net.sourceforge.zbar.Image;
@@ -41,6 +44,9 @@ public class BarcodeScannerNew extends AppCompatActivity {
         System.loadLibrary("iconv");
     }
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +54,8 @@ public class BarcodeScannerNew extends AppCompatActivity {
 
         initControls();
     }
+
+
 
     private void initControls() {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -87,6 +95,7 @@ public class BarcodeScannerNew extends AppCompatActivity {
             releaseCamera();
         }
         return super.onKeyDown(keyCode, event);
+
     }
 
 
@@ -105,9 +114,11 @@ public class BarcodeScannerNew extends AppCompatActivity {
     private void releaseCamera() {
         if (mCamera != null) {
             previewing = false;
+            mCamera.stopPreview();
             mCamera.setPreviewCallback(null);
             mCamera.release();
             mCamera = null;
+
         }
     }
 
@@ -130,8 +141,9 @@ public class BarcodeScannerNew extends AppCompatActivity {
 
             if (result != 0) {
                 previewing = false;
-                mCamera.setPreviewCallback(null);
-                mCamera.stopPreview();
+
+
+
                 TextView labelScanResult = (TextView)findViewById(R.id.labelScanResult);
 
                 SymbolSet syms = scanner.getResults();
@@ -146,14 +158,21 @@ public class BarcodeScannerNew extends AppCompatActivity {
                   /*  Toast.makeText(BarcodeScanner.this, scanResult,
                             Toast.LENGTH_SHORT).show();*/
 
-                    Intent i = new Intent(BarcodeScannerNew.this, BarcodeScanner.class);
-                    i.putExtra("" , labelScanResult.getText().toString());
-                    startActivity(i);
 
-                    barcodeScanned = true;
-                    finish();
+
                     break;
                 }
+
+                Intent i = new Intent(BarcodeScannerNew.this, BarcodeScanner.class);
+                i.putExtra("" , labelScanResult.getText().toString());
+                startActivity(i);
+
+                previewing = false;
+                mCamera.stopPreview();
+                mCamera.setPreviewCallback(null);
+                mCamera.release();
+                mCamera = null;
+
             }
         }
     };
@@ -182,5 +201,39 @@ public class BarcodeScannerNew extends AppCompatActivity {
 
                 .show();
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        if (id == R.id.homebutton){
+            startActivity(new Intent(this,MainActivity.class));
+            previewing = false;
+            mCamera.stopPreview();
+            mCamera.setPreviewCallback(null);
+            mCamera.release();
+            mCamera = null;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
 }

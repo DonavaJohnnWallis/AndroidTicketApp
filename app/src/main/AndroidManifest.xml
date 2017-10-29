@@ -51,6 +51,11 @@
             android:name=".MainActivity21"
             android:label="SCAN TAGS" >
         </activity>
+
+        <activity
+            android:name=".UserInfo"
+            android:label="Get User Information" >
+        </activity>
         <activity
             android:name=".SetupEvent"
             android:label="SETUP EVENT"

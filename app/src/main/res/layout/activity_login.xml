@@ -109,7 +109,7 @@
                 android:layout_alignBottom="@+id/imageViewEventImage"
                 android:background="@drawable/round"
                 android:backgroundTint="#f5ab1c"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:textSize="15dp"
                 android:textStyle="bold"
 

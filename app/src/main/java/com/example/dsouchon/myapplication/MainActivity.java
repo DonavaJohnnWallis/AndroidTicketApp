@@ -169,6 +169,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void buttoninfo(View view) {
+
+
+        Intent intent = new Intent(MainActivity.this, UserInfo.class );
+        finish();
+        startActivity(intent);
+    }
+
 
 
     public void ScanCode(View view) {

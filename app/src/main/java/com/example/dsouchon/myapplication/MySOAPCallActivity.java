@@ -44,7 +44,7 @@ public class MySOAPCallActivity
     public MySOAPCallActivity()
     {
     }
-    public String Call(String TagNumber)
+    public String CallUser(String TagNumber)
     {
         SoapObject request = new SoapObject(WSDL_TARGET_NAMESPACE,GetUserForTag);
         PropertyInfo pi=new PropertyInfo();

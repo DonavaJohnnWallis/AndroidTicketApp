@@ -1,12 +1,16 @@
 package com.example.dsouchon.myapplication;
 
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.hardware.Camera;
+import android.hardware.Camera.Parameters;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -44,6 +48,12 @@ public class BarcodeScannerNew extends AppCompatActivity {
         System.loadLibrary("iconv");
     }
 
+    //flag to detect flash is on or off
+    private boolean isLighOn = false;
+
+    private Camera camera;
+
+    private FloatingActionButton button;
 
 
 
@@ -53,6 +63,51 @@ public class BarcodeScannerNew extends AppCompatActivity {
         setContentView(R.layout.new_barcode_window);
 
         initControls();
+
+
+
+        button = (FloatingActionButton) findViewById(R.id.buttonFlashlight);
+
+        Context context = this;
+        PackageManager pm = context.getPackageManager();
+
+        // if device support camera?
+        if (!pm.hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+            Log.e("err", "Device has no camera!");
+            return;
+        }
+
+
+        final Parameters p = mCamera.getParameters();
+
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                if (isLighOn) {
+
+                    Log.i("info", "torch is turn off!");
+
+                    p.setFlashMode(Parameters.FLASH_MODE_OFF);
+                    mCamera.setParameters(p);
+                    mCamera.startPreview();
+                    isLighOn = false;
+
+                } else {
+
+                    Log.i("info", "torch is turn on!");
+
+                    p.setFlashMode(Parameters.FLASH_MODE_TORCH);
+
+                    mCamera.setParameters(p);
+                    mCamera.startPreview();
+                    isLighOn = true;
+
+                }
+
+            }
+        });
     }
 
 
@@ -73,9 +128,13 @@ public class BarcodeScannerNew extends AppCompatActivity {
         FrameLayout preview = (FrameLayout) findViewById(R.id.cameraPreview);
         preview.addView(mPreview);
 
-        scanButton = (Button) findViewById(R.id.ScanButton);
 
-        scanButton.setOnClickListener(new View.OnClickListener() {
+
+
+
+         /* button hidden. comented out so ne
+          scanButton = (Button) findViewById(R.id.ScanButton);
+          scanButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (barcodeScanned) {
                     barcodeScanned = false;
@@ -85,7 +144,7 @@ public class BarcodeScannerNew extends AppCompatActivity {
                     mCamera.autoFocus(autoFocusCB);
                 }
             }
-        });
+        }); */
     }
 
 
@@ -234,6 +293,22 @@ public class BarcodeScannerNew extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (mCamera != null) {
+            mCamera.release();
+        }
+        finish();
+    }
 
+    @Override
+    protected void onPause() {
+        // TODO Auto-generated method stub
+        super.onPause();
+        if (mCamera != null) {
+            mCamera.release();
+        }
+    }
 
 }

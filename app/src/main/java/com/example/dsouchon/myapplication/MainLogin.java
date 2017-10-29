@@ -159,10 +159,10 @@ public class MainLogin extends AppCompatActivity {
             // new CallSoapGetCurrentEvents().execute(params);
 
         } catch (Exception ex) {
-            ad.setTitle("Error!");
-            ad.setMessage(ex.toString());
+          //  ad.setTitle("Error!");
+           // ad.setMessage(ex.toString());
         }
-        ad.show();
+      //  ad.show();
     }
 
     public void Register(View view) {

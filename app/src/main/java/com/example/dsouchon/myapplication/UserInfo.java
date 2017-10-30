@@ -115,7 +115,7 @@ public class UserInfo extends AppCompatActivity {
             public void onClick(View v) {
                 MySOAPCallActivity cs = new MySOAPCallActivity();
                 try{
-                    EditText editTagNumber = (EditText)findViewById(R.id.editTagNumber);
+                    TextView editTagNumber = (TextView) findViewById(R.id.editTagNumber);
 
                     String tagNo = editTagNumber.getText().toString();
 
@@ -132,10 +132,10 @@ public class UserInfo extends AppCompatActivity {
 
                 }
                 catch(Exception ex) {
-                    ad.setTitle("Error!");
-                    ad.setMessage(ex.toString());
+                  //  ad.setTitle("Error!");
+                  //  ad.setMessage(ex.toString());
                 }
-                ad.show();
+              //  ad.show();
 
             }
         });
@@ -232,7 +232,7 @@ public class UserInfo extends AppCompatActivity {
             if(parcelables != null && parcelables.length > 0){
 
                 tagNo = readTextFromMessage((NdefMessage) parcelables[0]);
-                EditText editTagNumber = (EditText)findViewById(R.id.editTagNumber);
+                TextView editTagNumber = (TextView) findViewById(R.id.editTagNumber);
                 editTagNumber.setText(tagNo);
 
                 //shows progress bar when tag is scanned
@@ -270,7 +270,7 @@ public class UserInfo extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
 
-                    Intent i = new Intent(getApplicationContext(),MainActivity21.class);
+                    Intent i = new Intent(getApplicationContext(),UserInfo.class);
                     startActivity(i);
 
                 }
@@ -347,7 +347,7 @@ public class UserInfo extends AppCompatActivity {
     }
 
     private void enableForegroundDispatchSystem(){
-        Intent intent = new Intent(this, MainActivity21.class).addFlags(Intent.FLAG_RECEIVER_REPLACE_PENDING);
+        Intent intent = new Intent(this, UserInfo.class).addFlags(Intent.FLAG_RECEIVER_REPLACE_PENDING);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
         IntentFilter[] intentFilters = new IntentFilter[] {};
         nfcAdapter.enableForegroundDispatch(this, pendingIntent, intentFilters, null);

@@ -1,12 +1,17 @@
 package com.example.dsouchon.myapplication;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
+import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
@@ -15,23 +20,37 @@ import android.nfc.tech.Ndef;
 import android.nfc.tech.NdefFormatable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
+import java.util.logging.Handler;
+
 
 
 public class MainActivity21 extends AppCompatActivity {
@@ -127,7 +146,7 @@ public class MainActivity21 extends AppCompatActivity {
 
 
 
-     Button btnScanTag = (Button)findViewById(R.id.buttonScanTag);
+        Button btnScanTag = (Button)findViewById(R.id.buttonScanTag);
         btnScanTag.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,7 +183,7 @@ public class MainActivity21 extends AppCompatActivity {
 
 
 
-   Button buttonYes = (Button)findViewById(R.id.buttonYes);
+        Button buttonYes = (Button)findViewById(R.id.buttonYes);
         buttonYes.setVisibility(View.INVISIBLE);
         buttonYes.setOnClickListener(new OnClickListener() {
             @Override
@@ -210,10 +229,10 @@ public class MainActivity21 extends AppCompatActivity {
                     }
                 }
                 catch(Exception ex) {
-               //     ad.setTitle("Error!");
-            //        ad.setMessage(ex.toString());
+                    //     ad.setTitle("Error!");
+                    //        ad.setMessage(ex.toString());
                 }
-          //      ad.show();
+                //      ad.show();
 
             }
         });
@@ -228,7 +247,7 @@ public class MainActivity21 extends AppCompatActivity {
     public void ButtonNo_Click(View view)
     {
 
-         TextView labelScanResult = (TextView)findViewById(R.id.labelScanResult);
+        TextView labelScanResult = (TextView)findViewById(R.id.labelScanResult);
         TextView nameSurname = (TextView)findViewById(R.id.nameSurname);
         TextView idNumber = (TextView)findViewById(R.id.idNumber);
         TextView ticketClass = (TextView)findViewById(R.id.ticketClass);
@@ -470,20 +489,20 @@ public class MainActivity21 extends AppCompatActivity {
 //NFC Stuff Start - COMMENTING OUT FOR DEBUGGING
 
     @Override
-    protected void onStart() {
-        super.onStart();
-        final AlertDialog ad = new AlertDialog.Builder(this).create();
+    protected void onNewIntent( Intent intent) {
+        super.onNewIntent(intent);
+        final  AlertDialog ad=new AlertDialog.Builder(this).create();
+        if (intent.hasExtra(NfcAdapter.EXTRA_TAG)) {
 
+            Parcelable[] parcelables = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES);
 
-        EditText editTagNumber = (EditText) findViewById(R.id.editTagNumber);
-        Bundle bu;
-        bu = getIntent().getExtras();
+            String tagNo = "";
 
-        if (bu != null) {
-            editTagNumber.setText(bu.getString(""));
+            if(parcelables != null && parcelables.length > 0){
 
-         }
-        String tagNo = "";
+                tagNo = readTextFromMessage((NdefMessage) parcelables[0]);
+                EditText editTagNumber = (EditText)findViewById(R.id.editTagNumber);
+                editTagNumber.setText(tagNo);
 
                 //shows progress bar when tag is scanned
                 ProgressBar mprogressbar;
@@ -530,14 +549,17 @@ public class MainActivity21 extends AppCompatActivity {
 
                 }
                 catch(Exception ex) {
-           //         ad.setTitle("Error!");
+                    //         ad.setTitle("Error!");
                     ad.setMessage(ex.toString());
                 }
-          //      ad.show();
+                //      ad.show();
 
 
 
+            }else{
+                Toast.makeText(this, "No Tag Data Found!", Toast.LENGTH_SHORT).show();
 
+            }
 
 
 //this resests actiity so  tag info is deleted if person is not allowed entry
@@ -545,7 +567,7 @@ public class MainActivity21 extends AppCompatActivity {
 
 
 
-            nobutton.setOnClickListener(new OnClickListener() {
+            nobutton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
@@ -563,7 +585,7 @@ public class MainActivity21 extends AppCompatActivity {
 
 
 
-            scanbutton.setOnClickListener(new OnClickListener() {
+            scanbutton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
@@ -586,7 +608,7 @@ public class MainActivity21 extends AppCompatActivity {
 
 
 
-
+        }
     }
 
     private String readTextFromMessage(NdefMessage ndefMessage) {

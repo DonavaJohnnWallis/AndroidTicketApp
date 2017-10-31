@@ -89,6 +89,9 @@ public class UserInfo extends AppCompatActivity {
     NfcAdapter nfcAdapter;
 
 
+
+
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -105,6 +108,16 @@ public class UserInfo extends AppCompatActivity {
 
         final  AlertDialog ad=new AlertDialog.Builder(this).create();
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+
+        NfcAdapter adapter = NfcAdapter.getDefaultAdapter(this);
+        if (adapter == null) {
+            Intent intent = new Intent(UserInfo.this, MainActivity.class );
+            finish();
+            startActivity(intent);
+            Toast.makeText(UserInfo.this,"Your device does not support this feature", Toast.LENGTH_LONG).show();
+
+        }
+
 
         final GlobalClass globalVariable = (GlobalClass) getApplicationContext();
 
@@ -223,6 +236,10 @@ public class UserInfo extends AppCompatActivity {
     protected void onNewIntent( Intent intent) {
         super.onNewIntent(intent);
         final  AlertDialog ad=new AlertDialog.Builder(this).create();
+
+
+
+
         if (intent.hasExtra(NfcAdapter.EXTRA_TAG)) {
 
             Parcelable[] parcelables = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES);

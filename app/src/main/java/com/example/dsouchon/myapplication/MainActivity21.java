@@ -102,19 +102,26 @@ public class MainActivity21 extends AppCompatActivity {
 
         ProgressBar mprogressbar;
         mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
-        mprogressbar.setVisibility(View.GONE);
+        mprogressbar.setVisibility(View.INVISIBLE);
 
         Button scanbutton = (Button)findViewById(R.id.buttonScanTag);
         scanbutton.setVisibility(View.INVISIBLE);
 
+        NfcAdapter adapter = NfcAdapter.getDefaultAdapter(this);
+        if (adapter == null) {
+            Intent intent = new Intent(MainActivity21.this, MainActivity.class );
+            finish();
+            startActivity(intent);
+            Toast.makeText(MainActivity21.this,"Your device does not support this feature", Toast.LENGTH_LONG).show();
 
+        }
 
 
         //Make yes no buttons invisible
 
         Button buttonNo = (Button)findViewById(R.id.buttonNo);
 
-        buttonNo.setVisibility(View.INVISIBLE);
+        buttonNo.setVisibility(View.GONE);
 
 
 
@@ -383,7 +390,13 @@ public class MainActivity21 extends AppCompatActivity {
                     //hides progress bar when information is complete
                     ProgressBar mprogressbar;
                     mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
-                    mprogressbar.setVisibility(View.GONE);
+                    mprogressbar.setVisibility(View.INVISIBLE);
+
+                    //changes bar color after scan
+                    TextView rl = (TextView)findViewById(R.id.labelScanResult);
+                    rl.setBackgroundColor(Color.parseColor("#be1c1d"));
+                    rl.setTextColor(Color.parseColor("#ffffff"));
+
 
 
                 } else {
@@ -391,6 +404,11 @@ public class MainActivity21 extends AppCompatActivity {
 
                     //TableLayout tableLayout = (TableLayout) findViewById(R.id.tab);
                     //tableLayout.removeAllViews();
+
+                    //changes bar color after scan
+                    TextView rl = (TextView)findViewById(R.id.labelScanResult);
+                    rl.setBackgroundColor(Color.parseColor("#0c9d16"));
+                    rl.setTextColor(Color.parseColor("#ffffff"));
 
 
                     String[] rows = result.toString().split("\\n?\\n");
@@ -406,7 +424,7 @@ public class MainActivity21 extends AppCompatActivity {
                         //hides progress bar when information is complete
                         ProgressBar mprogressbar;
                         mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
-                        mprogressbar.setVisibility(View.GONE);
+                        mprogressbar.setVisibility(View.INVISIBLE);
                     }
 
 
@@ -421,6 +439,7 @@ public class MainActivity21 extends AppCompatActivity {
                     if (idNumber.length() > 1) {
 
                         buttonYes.setVisibility(View.VISIBLE);
+
 
 
 
@@ -505,9 +524,11 @@ public class MainActivity21 extends AppCompatActivity {
                 editTagNumber.setText(tagNo);
 
                 //shows progress bar when tag is scanned
+
                 ProgressBar mprogressbar;
                 mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
                 mprogressbar.setVisibility(View.VISIBLE);
+
 
 
                 MySOAPCallActivity cs = new MySOAPCallActivity();
@@ -530,9 +551,8 @@ public class MainActivity21 extends AppCompatActivity {
                         TagParams params = new TagParams(cs, tagNo, eventName);
 
                         //Make yes no buttons visible
-                        Button buttonYes = (Button)findViewById(R.id.buttonYes);
+
                         Button buttonNo = (Button)findViewById(R.id.buttonNo);
-                        buttonYes.setVisibility(View.VISIBLE);
                         buttonNo.setVisibility(View.VISIBLE);
 
                         TextView nameSurname = (TextView) findViewById(R.id.nameSurname);

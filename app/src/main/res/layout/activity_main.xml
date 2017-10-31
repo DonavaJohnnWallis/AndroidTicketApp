@@ -120,7 +120,7 @@
             android:layout_weight="1"
             android:background="@drawable/round"
             android:text="Info"
-            android:drawableTop="@mipmap/and_btn_list"
+            android:drawableTop="@mipmap/and_btn_profile"
             android:layout_margin="5dp"
             android:layout_height="match_parent"
             android:padding="15dp"

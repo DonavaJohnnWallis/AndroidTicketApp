@@ -51,6 +51,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.logging.Handler;
 
+import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class MainActivity21 extends AppCompatActivity {
@@ -409,6 +410,10 @@ public class MainActivity21 extends AppCompatActivity {
                     TextView rl = (TextView)findViewById(R.id.labelScanResult);
                     rl.setBackgroundColor(Color.parseColor("#0c9d16"));
                     rl.setTextColor(Color.parseColor("#ffffff"));
+
+
+                    CircleImageView placeholder = (CircleImageView) findViewById(R.id.imageViewProfilePic);
+                    placeholder.setBackgroundResource(0);
 
 
                     String[] rows = result.toString().split("\\n?\\n");

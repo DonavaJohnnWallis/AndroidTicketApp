@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +20,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class BarcodeScanner extends AppCompatActivity {
@@ -71,6 +74,11 @@ public class BarcodeScanner extends AppCompatActivity {
 
         if (bu != null) {
             editTagNumber.setText(bu.getString(""));
+
+            ProgressBar mprogressbar;
+            mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
+            mprogressbar.setVisibility(View.VISIBLE);
+
 
         }
 
@@ -129,9 +137,7 @@ public class BarcodeScanner extends AppCompatActivity {
 
         //hides progress bar
 
-        ProgressBar mprogressbar;
-        mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
-        mprogressbar.setVisibility(View.INVISIBLE);
+
 
         Button scanbutton = (Button)findViewById(R.id.buttonScanTag);
         scanbutton.setVisibility(View.GONE);
@@ -246,7 +252,7 @@ public class BarcodeScanner extends AppCompatActivity {
         startActivity(intent);
 
         Button scancode = (Button)findViewById(R.id.scanner2);
-        scancode.setVisibility(View.VISIBLE);
+        scancode.setVisibility(View.INVISIBLE);
 
 
 
@@ -283,9 +289,7 @@ public class BarcodeScanner extends AppCompatActivity {
 
 
 
-        ImageView imageViewProfilePic = (ImageView) findViewById(R.id.imageViewProfilePic);
 
-        imageViewProfilePic.setImageResource(R.drawable.ico_profile_icon);
 
         labelScanResult.setText("");
         nameSurname.setText("");
@@ -439,12 +443,20 @@ public class BarcodeScanner extends AppCompatActivity {
                     mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
                     mprogressbar.setVisibility(View.INVISIBLE);
 
+                    TextView rl = (TextView)findViewById(R.id.labelScanResult);
+                    rl.setBackgroundColor(Color.parseColor("#be1c1d"));
+                    rl.setTextColor(Color.parseColor("#ffffff"));
+
 
                 } else {
                     labelScanResult.setText("Success!" + " Allow entry?");
 
-                    //TableLayout tableLayout = (TableLayout) findViewById(R.id.tab);
-                    //tableLayout.removeAllViews();
+                    //changes color and removes profile pic on successfull scan
+                    TextView rl = (TextView)findViewById(R.id.labelScanResult);
+                    rl.setBackgroundColor(Color.parseColor("#0c9d16"));
+                    rl.setTextColor(Color.parseColor("#ffffff"));
+                    CircleImageView placeholder = (CircleImageView) findViewById(R.id.imageViewProfilePic);
+                    placeholder.setBackgroundResource(0);
 
 
                     String[] rows = result.toString().split("\\n?\\n");

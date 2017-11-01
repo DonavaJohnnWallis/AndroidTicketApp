@@ -164,7 +164,6 @@
 
         <Button
             android:id="@+id/buttonYes"
-
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:background="@drawable/round"

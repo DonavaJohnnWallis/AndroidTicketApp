@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="gradle-wrapper">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../Untitled/GitRepo/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

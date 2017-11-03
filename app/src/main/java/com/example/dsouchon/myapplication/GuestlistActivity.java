@@ -1,11 +1,14 @@
 package com.example.dsouchon.myapplication;
 
 import android.app.AlertDialog;
+import android.app.LauncherActivity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,12 +20,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
 public class GuestlistActivity extends AppCompatActivity {
-
 
 
 
@@ -32,12 +36,13 @@ public class GuestlistActivity extends AppCompatActivity {
         Toast.makeText(GuestlistActivity.this,"Select Home to go back.", Toast.LENGTH_SHORT).show();
 
 
-
-
     }
 
-
-
+    String[] item;
+    ArrayList<String> listItem;
+    ArrayAdapter<String> adapter;
+    ListView listView;
+    EditText editText;
 
 
     @Override
@@ -46,11 +51,6 @@ public class GuestlistActivity extends AppCompatActivity {
         setContentView(R.layout.activity_guestlist);
         Button buttonEventSetup = (Button)findViewById(R.id.buttonEventSetup);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
-
-
-
-
 
 
 
@@ -85,8 +85,8 @@ public class GuestlistActivity extends AppCompatActivity {
 
 
 
-
     }
+
 
 
 
@@ -162,6 +162,7 @@ public class GuestlistActivity extends AppCompatActivity {
 
              //sets list view for ticket holder information
             String[] RowData = result.toString().split(";");
+
             List<String> TicketholdersArray = new ArrayList<>();
             for(int x=0;x<RowData.length;x++)
             {
@@ -171,7 +172,6 @@ public class GuestlistActivity extends AppCompatActivity {
 
             ListView listView1 = (ListView) findViewById(R.id.your_list_view_id);
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(GuestlistActivity.this, R.layout.liststyle, TicketholdersArray);
-            adapter.setDropDownViewResource(R.layout.spinnerstyledrop);
             listView1.setAdapter(adapter);
 
 

@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            ImageButton buttonAccessControl = (ImageButton)findViewById(R.id.buttonAccessControl);
+            Button buttonAccessControl = (Button) findViewById(R.id.buttonAccessControl);
             buttonAccessControl.setEnabled(false);
         }
 

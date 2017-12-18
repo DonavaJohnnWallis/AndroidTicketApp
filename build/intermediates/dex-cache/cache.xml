@@ -3,30 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_f44674c45bfaeefb1830854e3c2ce6207e7c740b.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_e0230d971681edfb23e4beebdd114fc12a6fc86b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_005940ce39c8b51d01a2fac32786ec3e529007b1.jar" />
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_ba86c4e448d6753c9b5df96cd8cf47b74f7ce899.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/support-annotations-25.3.0_c07edf1c5b010253cbacbcd44364596c61a736f9.jar" />
+        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-process-phoenix-1.1.1_dec55ab2537583be80151f315b8eb276bbdbc711.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,15 +39,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/gradle-wrapper_e4e368cbc896428a9b881cee38bf5740ce3c67a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -57,39 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/zbar.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_e3298153781a46181541db9fe53dd47687ccebe5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_c754a6c76234b07919ae1bc12a4bba2eb227137e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_2e8deb01c7333c0d00abaa05585b84cb2f47dd17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.jakewharton-process-phoenix-1.1.1_b8b0fe9dbc147d0ba0dac0992530293a01fbf8c4.jar" />
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/zbar_2bd207e04ecc3ef76472e6280f3c59141e209ddb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,21 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_25c11135117b49920ffe5c93d391f5b437733b59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_3a33dc7e21af542e3ac9aab2749fd51dfef96baa.jar" />
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_aa8c490cb828995eabf5fa803e36659f6009309d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +84,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_a153b372b6f3034edb443eb673e4876f1cb7376f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_ba86f9992241bfb2ac6afcd17e7e5037dcbdaa4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -138,21 +111,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_fae657fc1c083366ade7865668da1c9dcb511b4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-plus-7.0.0_ff02b0420bf87d52e606bd9a4e7a3b0aedcca6cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_aea50530f16e3d9dfc42b485c0e42c126cd0f15a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,30 +147,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_fb1f922f2501e3bd3ead80b0646fddf65bab24e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b1e9c5747e9e9c683a9b4916aaa9496e9bf33b64.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.3.0_ce84800ec51d9644a7adfdb299bc934194ca62c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_1365d890a4cab45cddf693e56a3f62961da8a970.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,6 +201,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_c22fffdeab56514838397eb4b8c20a5fd2c0e09a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -252,6 +225,15 @@
         revision="23.0.1"
         sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.3.0_f44b0c133a35d2e5a5f1b2637acc1359905b4666.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_6d690c7a2f24ba35c24f4345b74b8e04923090dd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -291,21 +273,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_219085a4e37068a9c97d091b17ed93057e162047.jar" />
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/core-3.3.0_b4617eeacdccdb49cdb7258d243b0867624748e8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_401fe5095f61a0e8c35a1756a0483f092fa85df5.jar" />
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_ad2210ab0843c8f93d5a5fda854cfbbee89a7567.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_304c793b8516012f253c8322c80ce549d914eb54.jar" />
     </item>
     <item
         is-multidex="false"
@@ -318,12 +309,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_78ccd753a14c83d4818349a29e40e7b04e0752a6.jar" />
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_2ace486695ff108d9d2e3c5bb78c221ce15f13f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_663e103d6fab9c7f2581a5dffeee1a3b2af05afb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -336,12 +336,57 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_d34eb2050f4ffc369482ce7ce832f04f6f289ff3.jar" />
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_e5d4d46665e36123ef32d49e3e3a0fb3d5276af8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_737b4d72a2135edd99b6eb6544721e975898b2ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.5.0_2dd92c44333e09b0ea4bdf929acd02d031fd29c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_b5f5738ee67788e543357c7dd3dfb7cfd707f827.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_36b8a660037bbb8e8699e9e0842f686ac436d099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_3ab7831836a18db1d72b448b8579ff71bfbd7038.jar" />
     </item>
     <item
         is-multidex="false"
@@ -363,12 +408,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_3819d9894fff1804b806c058245ddc0927ee855d.jar" />
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_1aa70f83800bdd29b6389a2803fc93cba54cb9ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_651a241527295b2922c8d6fda95a3071547be15c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_66897ce6012891c01714e401e5511ec5b9a28026.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_9532e9d75c1b50ef47b96c0f38ada597921b7fdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_e777c4d90102fe50ed14b56319d7f33617d7a506.jar" />
     </item>
     <item
         is-multidex="false"
@@ -378,15 +459,6 @@
         revision="23.0.1"
         sha1="055783146ba9654a725442563be78cad303aad1f">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-7.0.0_df30a5dcb51cb0c08de078a29fb7982b703eeb6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_3b8fd431fc653ed19064eae2faa6916eab0e357c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -408,12 +480,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_14e7243ef2eb8f46677f6bc4a242737708939908.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_8048beb62d2be2a2599903a93cc118fd2c96d018.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_59a1d7f503335fc1de74b2fef69d72180d5c02b8.jar" />
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_67660db68620bd051e71981879ce87d547001f9a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -423,15 +513,6 @@
         revision="23.0.1"
         sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-panorama-7.0.0_9e6410879a0ee1ac333f7767e05ae49a3cf442df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_758aba0541a8e54483c6b6f1293673bc89719e79.jar" />
     </item>
     <item
         is-multidex="false"
@@ -453,21 +534,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_5e7404f360abb7b43a49c0862ebf33478bc51738.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.3.0_02c67c8e4c6fa7f649822ac10e4f3e3a084e3f32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_8b8aac551e107f6cf00bf2fa2a3b1ec22fbd91b7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -480,30 +561,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_45d86d73aef32883ca7bac709c2b57693b847e24.jar" />
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_3e22bae97dec35de9facd04b67b29ee3271fca1e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_06c5b0d86f94b37d81a8f9c39ef758990fbb8d13.jar" />
+        sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/gradle-wrapper_90d3afe3163381f57b40cbaa851be1cd49a1014d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_89348444ebd8656624c0cf33e0a24dbb4120899b.jar" />
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_b3195cf62850166e23ee00efb4de510cd5af1116.jar" />
     </item>
     <item
         is-multidex="false"
@@ -525,6 +606,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zbar-1.8.2_2f138bf7905895011821fc38889ec432eedc338b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -543,12 +633,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_872533e5c05f26b8f2cd7be02922b2fd8e75667e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
         <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appstate-7.0.0_0f24913875d21c8b1c59ccc7d151cc1dfabed97a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_61f6826beb516e9794374d5bc074896c97642885.jar" />
     </item>
     <item
         is-multidex="false"
@@ -561,15 +669,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_67d68bf21134faf7297e0f91bcf5d014440b691f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -579,21 +678,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_5f8fbeddd8ba7e86ebcb9de1a4527a528d94c5dc.jar" />
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.2_7ee6da5d23e5234df19d7edd1071dffae5734f13.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Users/Donavan/Documents/untitled folder 2/android_repository/MiiD_Ticket_App_barcode Master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_28b8ba1bc334f4f06928a451ac66a9157aa65ef6.jar" />
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_1f67c53eb21720e6ce276dba4a33c357b72a0979.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_cc50980c9f45edd7ec465a3940c3b6543f9b98d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_bfeaf87f0e187bb15f05830d8aa9615216cbeb78.jar" />
     </item>
 
 </items>

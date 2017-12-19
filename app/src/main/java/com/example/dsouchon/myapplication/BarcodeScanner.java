@@ -67,20 +67,16 @@ public class BarcodeScanner extends AppCompatActivity {
         setContentView(R.layout.activity_barcode_scanner);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-
-        EditText editTagNumber = (EditText) findViewById(R.id.editTagNumber);
-        Bundle bu;
-        bu = getIntent().getExtras();
-
-        if (bu != null) {
-            editTagNumber.setText(bu.getString(""));
-
-            ProgressBar mprogressbar;
-            mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
-            mprogressbar.setVisibility(View.VISIBLE);
-
-
+        TextView editTagNumber = (TextView) findViewById(R.id.editTagNumber);
+        Intent intent = getIntent();
+        Bundle bd = intent.getExtras();
+        if(bd != null)
+        {
+            String getName = (String) bd.get("result");
+            editTagNumber.setText(getName);
         }
+
+
 
 
         //get the extras that are returned from the intent
@@ -165,11 +161,11 @@ public class BarcodeScanner extends AppCompatActivity {
             Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             imageViewEventImage.setImageBitmap(decodedByte);
         }
-        else {
-            Intent intent = new Intent(BarcodeScanner.this, SetupEvent.class );
-            startActivity(intent);
+       // else {
+        //    Intent intent = new Intent(BarcodeScanner.this, SetupEvent.class );
+       //     startActivity(intent);
 
-        }
+      //  }
 
 
 

@@ -61,11 +61,15 @@ public class MainActivity2 extends AppCompatActivity {
                 Log.d("MainActivity", "Cancelled scan");
                 Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show();
             } else {
+
                 Log.d("MainActivity", "Scanned");
                 Toast.makeText(this, "Scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity2.this, BarcodeScanner.class);
-                intent.putExtra("name", result.getText()+" "+etName2.getText());
+
+                intent.putExtra("Barcode", result.getContents());
+
                 startActivity(intent);
+
             }
         } else {
             // This is important, otherwise the result will not be passed to the fragment

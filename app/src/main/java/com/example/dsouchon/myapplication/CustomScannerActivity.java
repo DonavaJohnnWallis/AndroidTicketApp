@@ -39,6 +39,7 @@ public class CustomScannerActivity extends Activity implements
         capture = new CaptureManager(this, barcodeScannerView);
         capture.initializeFromIntent(getIntent(), savedInstanceState);
         capture.decode();
+
     }
 
     @Override

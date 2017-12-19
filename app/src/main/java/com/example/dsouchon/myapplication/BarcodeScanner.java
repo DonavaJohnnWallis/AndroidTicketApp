@@ -66,14 +66,13 @@ public class BarcodeScanner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_barcode_scanner);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
         TextView editTagNumber = (TextView) findViewById(R.id.editTagNumber);
         Intent intent = getIntent();
         Bundle bd = intent.getExtras();
         if(bd != null)
         {
-            String getName = (String) bd.get("result");
-            editTagNumber.setText(getName);
+            String barcode = (String) bd.get("Barcode");
+            editTagNumber.setText(barcode);
         }
 
 

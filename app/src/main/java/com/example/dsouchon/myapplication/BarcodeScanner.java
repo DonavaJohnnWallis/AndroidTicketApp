@@ -79,7 +79,7 @@ public class BarcodeScanner extends AppCompatActivity {
 
 
         //get the extras that are returned from the intent
-        String tagNo = getIntent().getStringExtra( "");
+        String tagNo = getIntent().getStringExtra( "Barcode");
 
 
 

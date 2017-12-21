@@ -242,7 +242,7 @@ public class BarcodeScanner extends AppCompatActivity {
    // restarts activity once patron is allowed entry
     public void Next(View view) {
 
-        Intent intent = new Intent(BarcodeScanner.this, BarcodeScannerNew.class );
+        Intent intent = new Intent(BarcodeScanner.this, MainActivity2.class );
         finish();
         startActivity(intent);
 
@@ -255,7 +255,7 @@ public class BarcodeScanner extends AppCompatActivity {
 
     public void scanBar(View view) {
 
-        Intent intent = new Intent(BarcodeScanner.this, BarcodeScannerNew.class );
+        Intent intent = new Intent(BarcodeScanner.this, MainActivity2.class );
         finish();
         startActivity(intent);
 

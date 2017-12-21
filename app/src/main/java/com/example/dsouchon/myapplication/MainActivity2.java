@@ -1,7 +1,6 @@
 package com.example.dsouchon.myapplication;
 
 import android.content.Intent;
-import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.zxing.client.android.Intents;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
@@ -22,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_open_scanner);
         Intent intent = new Intent("com.google.zxing.client.android.SCAN");
         intent.putExtra("SCAN_MODE", "QR_CODE_MODE"); // "PRODUCT_MODE for bar codes
 
@@ -31,7 +29,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
   /*
-  This activates qr code scanner
+
   public void scanCustomScanner(View view) {
         Intent intent = new Intent("com.google.zxing.client.android.SCAN");
         intent.putExtra("SCAN_MODE", "QR_CODE_MODE"); // "PRODUCT_MODE for bar codes
@@ -56,9 +54,6 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 
  */
-
-
-
 
 
 
@@ -88,6 +83,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
                 intent.putExtra("Barcode", result.getContents());
 
                 startActivity(intent);
+                finish();
 
             }
         } else {

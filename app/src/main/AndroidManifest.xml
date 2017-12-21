@@ -79,18 +79,6 @@
 
         </activity>
         <activity
-            android:name=".BarcodeScannerNew"
-            android:label="Scan Barcode"
-            >
-
-        </activity>
-        <activity
-            android:name=".OpenBarcode"
-            android:label="Scan Barcode"
-            >
-
-        </activity>
-        <activity
             android:name=".CustomScannerActivity"
             android:label="Scan Barcode"
             >

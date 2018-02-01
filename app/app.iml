@@ -134,9 +134,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="com.jakewharton:process-phoenix-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-ads-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/zbar.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="de.hdodenhof:circleimageview-2.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.journeyapps:zxing-android-embedded-3.5.0" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/zbar.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-nearby-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-cast-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-analytics-7.0.0" level="project" />
@@ -149,10 +149,11 @@
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-safetynet-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-location-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="me.dm7.barcodescanner:zbar-1.8.2" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-drive-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-v4-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-fragment-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-maps-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:animated-vector-drawable-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.3.0" level="project" />
@@ -166,7 +167,6 @@
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-appstate-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.google.zxing:core:3.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-wearable-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-appindexing-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-25.3.0" level="project" />

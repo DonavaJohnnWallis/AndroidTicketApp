@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="MiiDTicketApplication" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
@@ -132,47 +132,47 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="com.jakewharton:process-phoenix-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-ads-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/zbar.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="de.hdodenhof:circleimageview-2.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.journeyapps:zxing-android-embedded-3.5.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-nearby-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-cast-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-analytics-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-compat-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-core-ui-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-plus-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-media-compat-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-games-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-gcm-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-safetynet-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-location-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="me.dm7.barcodescanner:zbar-1.8.2" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-drive-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-v4-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-fragment-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="__local_jars__:/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-maps-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:animated-vector-drawable-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:design-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-fitness-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-wallet-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-panorama-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:transition-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-annotations:25.3.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-appstate-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.zxing:core:3.3.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-wearable-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-appindexing-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:recyclerview-v7-25.3.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-base-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-identity-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="me.dm7.barcodescanner:core-1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-fragment-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.jakewharton:process-phoenix-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-media-compat-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-fitness-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-base-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-appstate-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: de.hdodenhof:circleimageview-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-maps-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.zxing:core:3.3.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-cast-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-compat-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:25.3.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-safetynet-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:animated-vector-drawable-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-location-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-wearable-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/libs/zbar.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-panorama-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:transition-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-gcm-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-analytics-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.journeyapps:zxing-android-embedded-3.5.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-ui-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-games-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: me.dm7.barcodescanner:zbar-1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-drive-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-ads-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-nearby-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-identity-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:design-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-wallet-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: me.dm7.barcodescanner:core-1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-plus-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-vector-drawable-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-appindexing-7.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-utils-25.3.0" level="project" />
   </component>
 </module>

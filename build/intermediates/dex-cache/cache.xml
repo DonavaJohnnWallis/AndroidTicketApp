@@ -3,444 +3,174 @@
 
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_3431e832269690657cea93a8e7df68a8fd1388d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/zbar_ba983cde6dc8e06b2a8d5c67dba0c6a4c239b343.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_e0230d971681edfb23e4beebdd114fc12a6fc86b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_ba86c4e448d6753c9b5df96cd8cf47b74f7ce899.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-process-phoenix-1.1.1_dec55ab2537583be80151f315b8eb276bbdbc711.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-7.0.0_f3faf07641d580a9231c4c560abd8098f61c7f02.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/me.dm7.barcodescanner-zbar-1.8.2_639e7f0525629e669109fad25e00847da531b3b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/zbar.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/zbar_2bd207e04ecc3ef76472e6280f3c59141e209ddb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_2aa2241663dd542dbd8f448af5d39d012473d3ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.3.0_db5241a7c032bef7dd415407ca053c2692baff9f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_a195f93a4a4fe2a286de219d678e0002c3c3dafd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_aa8c490cb828995eabf5fa803e36659f6009309d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/zbar_ed25c5b83a39f4f08dcdf4cbe63856aef8eb7c6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_a153b372b6f3034edb443eb673e4876f1cb7376f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_ba86f9992241bfb2ac6afcd17e7e5037dcbdaa4b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-identity-7.0.0_76a2936598075f30667633cdc347e7a61285491d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_fae657fc1c083366ade7865668da1c9dcb511b4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_a84b319632b2d43f578566c70c0fffef49ab3db2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-plus-7.0.0_ff02b0420bf87d52e606bd9a4e7a3b0aedcca6cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_a10d9852056690996156d6e542c1e4031282a645.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_d8f13f817f08525c326ea041219a2e8606ee8f7f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/ksoap2-android-assembly-3.4.0-jar-with-dependencies_57122fc0c74930897bccef9d7609877f59e57233.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_2d495c803b5680b1e15099c4f9c5ece04476153c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_eddf279ec960da0271eb7175d73dc235f3791936.jar" />
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_e3e4c3b70df07ecc2c7955e489167d39317d5d60.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zbar-1.8.2_d75f3a0bf3fce723c61bdf37ff2f0dc6fcfdf582.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.3.0_df3b6ca850532f3c1501db6be1bea0251231871f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.3.0_ce84800ec51d9644a7adfdb299bc934194ca62c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_1365d890a4cab45cddf693e56a3f62961da8a970.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_5bdfcd3c1ab920052099b702248660b0f915b5b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_1e788db6ce9825fc02384db37e9487b720baf970.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.3.0_99e93c3761c71d3dcb28f1c412304b8ab965f10d.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_acaae2b5f5e1f7dc6fdcb31ff30a4138f20885b2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_85a5497fa13a82141b7f6e4dde7387191664ec5c.jar" />
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_f2ce6351f8dadbb6fb563abbb4cedb940f501a42.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_22a9fab98460695890c72869db5f3b80572aeabe.jar" />
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_2dfe6162d8e60c114bd465066ea0194797a8667a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-fitness-7.0.0_f797a1318eb4563baa6a39c6e01146fe49291ffd.jar" />
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_c12de2b05c621be9c2ae93a54f1466a70faa8b84.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-7.0.0_fae3aabdfe259fd8747dc6ee1fd03491be350d9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_ffe1fe8f22ae5a3d38a14088426483e0b694f6e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/de.hdodenhof-circleimageview-2.0.0_00c6810f8c961f17e27b4b5151054a89bd23516e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/gradle-wrapper_63809154d8d75948879e30b5140c36a75c38b161.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_c22fffdeab56514838397eb4b8c20a5fd2c0e09a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-7.0.0_174024c1a2c5f5e1297c08a63afe460bce93f39c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_50d8849c39768a69d3320419c42fb8bceb8222d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_f02ff9ffcaa77e6fc07ca2601e2a40742c31555e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.3.0_f44b0c133a35d2e5a5f1b2637acc1359905b4666.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_6d690c7a2f24ba35c24f4345b74b8e04923090dd.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_a9e5d1ec1d74b23775356c187b137e6c03e04de7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-design-25.3.0_83b4164a9b93aeeda1c1a19076f0075f605c69ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-7.0.0_dd8832d140ef9adba1502b0f88d043b0cc04ed23.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_21f8083c013da3275183b5c4a47fcde8e799c5bf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wallet-7.0.0_c7408c1c1c9ee35512d05735b9eb038d82420926.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_24d7a5773d584a76e17dc42bc8ba1d1415ff352f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_784edb55e54aa8fd9d4166e291c1c4e6ecefec54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_2f8c308bea62a219d35092e7ec92c99172436637.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_fbb35c1b3de897c4fa357bf1d42112d0af3d37cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_fad44532ab9d524c2dc399a26d5188bbbc10e28c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_2afb752ea8572092ae7ffd1e68ae831a1b52416f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_c63d5803e5d493d5ca66a524563960267b92caac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_2ea6860b5eb4a7e50e67fa72df687bd74d5309ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_5acd164b049a49eb7e2a6397389302664819b67f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-process-phoenix-1.1.1_12db601537fa4cad52bd9a166d54108c986e010c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/gradle-wrapper_479256ff7760597df8e3ac8c35c115054566504c.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/gradle-wrapper_b71e17635396efa71920751ff2d3f99a743607e1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_1ad49ff2005e94e14ad5fe46e731c97999a0c46a.jar" />
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_f161fafc876d1e8e1cd7e14a29db7766a58b05aa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -449,583 +179,187 @@
         optimize="true"
         revision="23.0.1"
         sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/core-3.3.0_b4617eeacdccdb49cdb7258d243b0867624748e8.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/core-3.3.0_b4617eeacdccdb49cdb7258d243b0867624748e8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_ad2210ab0843c8f93d5a5fda854cfbbee89a7567.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_959660db326b7dd770c71235fa512831831e98b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_304c793b8516012f253c8322c80ce549d914eb54.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/me.dm7.barcodescanner-core-1.8.2_f7225e8d4d0d934170c3218d428b8a99ba53e5d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_c52f40931d782786af81f0ae8d9bd748c585ad88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_2ace486695ff108d9d2e3c5bb78c221ce15f13f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_663e103d6fab9c7f2581a5dffeee1a3b2af05afb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_567933e8eec1cd32e8f173584fb3714a9abdfb67.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_fd0fd03c9245ca7facfabac2f9182c1a2d755563.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.3.0_e8f4bcdb24dc281242dee82d2cd27c9c323e44d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_e5d4d46665e36123ef32d49e3e3a0fb3d5276af8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_737b4d72a2135edd99b6eb6544721e975898b2ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.5.0_2dd92c44333e09b0ea4bdf929acd02d031fd29c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_b5f5738ee67788e543357c7dd3dfb7cfd707f827.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_36b8a660037bbb8e8699e9e0842f686ac436d099.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_09f5b213dddf1cbe46b4dc3f5eec08a653be12e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_3ab7831836a18db1d72b448b8579ff71bfbd7038.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.3.0_a73b23cbd9809b86e81010d0be8e664efc35bd98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_85afe35c553d42bea3f60277c9e8c15b8b3b3e5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.3.0_b88e74e041c2335e3b8ca7546d8bdac836186f13.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_1aa70f83800bdd29b6389a2803fc93cba54cb9ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_651a241527295b2922c8d6fda95a3071547be15c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_66897ce6012891c01714e401e5511ec5b9a28026.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_9532e9d75c1b50ef47b96c0f38ada597921b7fdc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_e777c4d90102fe50ed14b56319d7f33617d7a506.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-7.0.0_df30a5dcb51cb0c08de078a29fb7982b703eeb6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.2_2f7853b5a79e4c89ab7c74e416a68c5792354e40.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.3.0_85bb61aa90bacfa28ca27a033ac05383f35da2a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_0a60bfa6c13cde54c9f4b9cb4ec263238bc23ec1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-7.0.0_d808ed0830ae3198fa5af1a97e7a7d09949fd831.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_14e7243ef2eb8f46677f6bc4a242737708939908.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_8048beb62d2be2a2599903a93cc118fd2c96d018.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_67660db68620bd051e71981879ce87d547001f9a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-panorama-7.0.0_9e6410879a0ee1ac333f7767e05ae49a3cf442df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_be337c90081d3b9ce9dd7846b5b3b2d207b242c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_da49c330016b219278865d8e7802b20d8e031336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.jakewharton-process-phoenix-1.1.1_3343b47112aaa85b860996793a40796b947752b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-nearby-7.0.0_006d2c595288b1a2ad9729dc95a147621413b77e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.3.0_02c67c8e4c6fa7f649822ac10e4f3e3a084e3f32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_8b8aac551e107f6cf00bf2fa2a3b1ec22fbd91b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.3.0_88c764f7778847c6f284a4d312dd9cf13be1e43f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_3e22bae97dec35de9facd04b67b29ee3271fca1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/gradle-wrapper_90d3afe3163381f57b40cbaa851be1cd49a1014d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_b3195cf62850166e23ee00efb4de510cd5af1116.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-7.0.0_62e9a7cace30cfd8597d4cf3b539750cb70a1525.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_8d7689b127d2e52629d3a099e8400eded832f1b7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_c47b8cba81c6cac25bd441438a54e4bbda8f9321.jar" />
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_5fcab23af59c9629c1e903d1180e69a84900bf89.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_f4fedb0a3cbba4f4d7f5a5ea5c56bd289c6ab414.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.5.0_62b4fbbcc1070d8385268d12f20ddb6843133c2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-7.0.0_70f6cdb26f7f0cf4be41f0b00f15ddf38dbb0fa0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zbar-1.8.2_2f138bf7905895011821fc38889ec432eedc338b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-7.0.0_41d9c8ebda2376c0ff5142002affc52b9f910400.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_c191495fcce4110de44d621a4d137285dead8c49.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appindexing-7.0.0_4b4eec54f8beeb4697ec48edaf062f110a8a9562.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_872533e5c05f26b8f2cd7be02922b2fd8e75667e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appstate-7.0.0_0f24913875d21c8b1c59ccc7d151cc1dfabed97a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_5024d72329759398da736e75c8ed828f04774381.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_61f6826beb516e9794374d5bc074896c97642885.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-drive-7.0.0_1de421485bb296cdca5759e2e6e5d316dd6c3004.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_d576460448a2a08e331de7d97a4896b3a9e63cfd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_b0ce9c441ad7c156b019aab1b7c99732c9dcb77e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Volumes/Untitled/GitRepo/AndroidTicketApp/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-7.0.0_cee2d15b4b5dffe8f61d5d6207eae90e69c347f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_d3d2d07e00180021a3714f52fd4f810176b340f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="96c83d4de6289a3f674165f896ac992564a7138d">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.2_7ee6da5d23e5234df19d7edd1071dffae5734f13.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.2_35ae45f03710c85c9fa76e05340683a3489aa30e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_1f67c53eb21720e6ce276dba4a33c357b72a0979.jar" />
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_85e69759b276e02ca256ecb1471c7c1709a690f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_a6f1c2cdc932237c2992d80aec44b8cbb3b7a7fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_4755ce53be0bf98395021cd8f8bd4fbb78548dab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_d396f22342bdc191985bd8f1f2f51ad10194500d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_bf9c7936fab5a6686a81e0771852fbe5c6652016.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zbar-1.8.2_06fef1098290731c38339dc1bd0fa63fb8e6ff4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_37122c3eba2c7f8ebce88792d4b8c97d7b30810a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_d404eba27006569eaa785b80cc572246e03ac639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_248914bc0e75eee92314f5c69d30f664a4c83fd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_b2250f5f4b0681ba2abc0e68002681bfcef8bd83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_ab7fc44d43ed04f008e8908884b3062349112443.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_094fff6bf7ff33949371e72cd1f7ce90f8436cdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.5.0_e1ddb567955b0a132a4f7f4069e21173e20ffb42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_2753775217273d1e0ce94cd0210566e5bc93f4fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_bf1d49e61e36e66cb47706e8548457cefb9048d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_22b11e1d2a5e5d92321f6e8d5ec23c953c5d63f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/zbar_36faa210d7e08c7912df27b2560e600b411c54d6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -1034,34 +368,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_cc50980c9f45edd7ec465a3940c3b6543f9b98d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_74d8027b26bc19353b2b342f1486511a7377632a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Volumes/Untitled/Git2017/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_bfeaf87f0e187bb15f05830d8aa9615216cbeb78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/exploded-aar/com.jakewharton/process-phoenix/1.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
-        <dex dex="/Volumes/Untitled/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-process-phoenix-1.1.1_40eaf96f7728c74853e304a6e7419fb97cdad5e1.jar" />
+        <dex dex="/Volumes/Donavan/Git_repo_2018/AndroidTicketApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_cc50980c9f45edd7ec465a3940c3b6543f9b98d4.jar" />
     </item>
 
 </items>

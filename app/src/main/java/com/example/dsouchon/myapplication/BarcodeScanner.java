@@ -444,14 +444,13 @@ public class BarcodeScanner extends AppCompatActivity {
 
 
                 } else {
-                    labelScanResult.setText("Success!" + " Allow entry?");
+                    labelScanResult.setText("Looking for" + " ticket...");
 
                     //changes color and removes profile pic on successfull scan
                     TextView rl = (TextView)findViewById(R.id.labelScanResult);
-                    rl.setBackgroundColor(Color.parseColor("#0c9d16"));
+                    rl.setBackgroundColor(Color.parseColor("#cccccc"));
                     rl.setTextColor(Color.parseColor("#ffffff"));
-                    CircleImageView placeholder = (CircleImageView) findViewById(R.id.imageViewProfilePic);
-                    placeholder.setBackgroundResource(0);
+                   ;
 
 
                     String[] rows = result.toString().split("\\n?\\n");
@@ -467,6 +466,15 @@ public class BarcodeScanner extends AppCompatActivity {
                         //hides progress bar when information is complete
                         mprogressbar = (ProgressBar) findViewById(R.id.progressbar);
                         mprogressbar.setVisibility(View.INVISIBLE);
+                        labelScanResult.setText("Success," + " allow entry");
+                        //changes color and removes profile pic on successfull scan
+                        TextView rl2 = (TextView)findViewById(R.id.labelScanResult);
+                        rl2.setBackgroundColor(Color.parseColor("#0c9d16"));
+                        rl2.setTextColor(Color.parseColor("#ffffff"));
+                        CircleImageView placeholder2 = (CircleImageView) findViewById(R.id.imageViewProfilePic);
+                        placeholder2.setBackgroundResource(0);
+
+
                     }
 
 

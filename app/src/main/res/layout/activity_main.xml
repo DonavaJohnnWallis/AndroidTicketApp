@@ -67,7 +67,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/round"
-                android:text="Barcodes"
+                android:text="Scan"
                 android:layout_margin="5dp"
                 android:layout_height="match_parent"
                 android:drawableTop="@mipmap/and_btn_ticket"

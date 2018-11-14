@@ -1,17 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
+    lintOptions {
+        checkReleaseBuilds false
+    }
     signingConfigs {
     }
     compileSdkVersion 25
-    buildToolsVersion '23.0.1'
+   //  buildToolsVersion '23.0.1' commented out to remove error. unsupported
     defaultConfig {
         applicationId "com.dsouchon.TicketingMiiD"
         //com.dsouchon.TicketingMiiDZim
         minSdkVersion 16
         targetSdkVersion 21
-        versionCode 17
-        versionName "3.1.3"
+        versionCode 18
+        versionName "3.1.4"
     }
     buildTypes {
         release {
@@ -24,20 +27,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar')
 
-    compile 'com.google.android.gms:play-services:7.0.0'
-    compile files('libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar')
-    compile 'de.hdodenhof:circleimageview:2.0.0'
-    compile 'com.jakewharton:process-phoenix:1.1.1'
-    compile 'me.dm7.barcodescanner:zbar:1.8.2'
-    compile 'com.android.support:support-v4:26.0.0-alpha1'
-    compile files('libs/zbar.jar')
+    implementation 'com.google.android.gms:play-services:7.0.0'
+    implementation files('libs/CircleImageView-master/gradle/wrapper/gradle-wrapper.jar')
+    implementation 'de.hdodenhof:circleimageview:2.0.0'
+    implementation 'com.jakewharton:process-phoenix:1.1.1'
+    //implementation 'me.dm7.barcodescanner:zbar:1.8.2' commented out to remove error. it looks like this libary is included in updated androi
+    implementation 'com.android.support:support-v4:26.0.0-alpha1'
+    //implementation files('libs/zbar.jar') commented out to remove error. it looks like this libary is included in updated android apk
 
-    compile 'com.android.support:design:25.3.1'
+    implementation 'com.android.support:design:25.3.1'
 
-    compile 'com.journeyapps:zxing-android-embedded:3.5.0'
+    implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
 }
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
